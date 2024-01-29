@@ -1,0 +1,11 @@
+name: Rginvisible
+version: '${project.version}'
+main: ru.kopeyka.rginvisible.Rginvisible
+api-version: 1.19
+authors: [ KoPeYkA_ ]
+commands:
+  rginvisible:
+    aliases:
+      - rgi
+      - regioninvisible
+      - regioninv

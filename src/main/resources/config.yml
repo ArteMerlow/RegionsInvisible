@@ -1,0 +1,34 @@
+#######################################################################################################################
+##
+## Hello! The plugin was written by KoPeYkA_. I'm very glad that you chose it!
+##
+## Some information about the setup:
+##
+## - In string lines, the value of %p will be replaced with the player on whom the action is performed.
+##
+## - Values are indicated as in a regular game, in ticks.
+##
+## - The %r symbol will be replaced by the name of the region the person entered.
+##
+#####################################################################################################################
+
+# The names of the regions in which players will have invisibility.
+# Indicate on a new line via "-"
+invisibleRegions:
+  - "invisibleRegionOne"
+#Time for which the effect is issued (999999 - infinite).
+effectDuration: 999999
+#Enable/disable effect particles.
+allowParticles: false
+
+#Text when a player enters a region.
+#Leave the field blank to remove the message.
+joinMessage: "§6[RGI] §6 %p§7, you have entered the §6 %r §7region, in which invisibility is enabled."
+
+#Text when a player leave a region.
+#Leave the field blank to remove the message.
+leaveMessage: "§6[RGI] %p§7, you left the region with invisibility."
+
+#Players who will not receive invisibility in such regions
+ignorePlayers:
+  - "KoPeYkA_"
